@@ -1,1 +1,1 @@
-# -Digital-Tachometer
+# Digital-Tachometer
