@@ -1,7 +1,8 @@
 # Contactless digital tachometer using 8051.
 A three digit contact less digital tachometer using 8051 microcontroller which can be used for measuring the revolutions/second of a rotating wheel, disc, shaft or anything like that is introduced in this project. The tachometer Â can measure up to a maximum of 255 rev/sec at an accuracy of 1 rev/sec. What you just need to do is to align the sensor close to the reflective strip Â (aluminium foil, white paper or some thing like that) glued on the rotating surface and the meter shows the rev/sec on the display. The circuit diagram of the digital tachometer is shown below.
 
-<img width="1149" height="513" alt="image" src="https://github.com/user-attachments/assets/2748741e-58f3-45ce-b9f5-5f7e1441ddb8" />
+<img width="568" height="241" alt="image" src="https://github.com/user-attachments/assets/ca2737dd-93bd-4366-8276-d7a49983d8db" />
+
 
 The first section of the circuit is the optical pickup based on photo transistor Q4 and red LED D4. Every time the reflective stripe Â on the rotating object passes in front of Â the sensor assembly, the reflected light falls on the photo transistor which makes it conduct more and as a result Â its collector voltage drops towards zero. When viewed through an oscilloscope the collector waveform of the photo transistor Q4 (2N5777) would look like this:
 
